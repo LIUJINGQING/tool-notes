@@ -14,10 +14,11 @@
 
 - Apt-get 安装
 
-```$ git
+```sh
+$ git
 The program 'git' is currently not installed. You can install it by typing:
 sudo apt-get install git
-
+```
 ​	像上面的命令，有很多Linux会友好地告诉你Git没有安装，还会告诉你如何安装Git。如果你碰巧用Debian或Ubuntu Linux，通过一条`sudo apt-get install git`就可以直接完成Git安装。
 
 
@@ -28,10 +29,11 @@ sudo apt-get install git
 
 - Yum 安装
 
-​```sh 
+```sh 
 $ git
 -bash: git: command not found
 ```
+
 
 ​	像上面的命令，提示系统没有找到该命令。需要自行安装Git。如果你碰巧使用CentOS或Redhead，通过一条`sudo yum -y install git`就可以之间完成Git安装。
 
@@ -61,10 +63,10 @@ $ git
 
    安装完成后，还需要最后一步设置，在命令行输入：
 
-   ```
+```
    $ git config --global user.name "Your Name"
    $ git config --global user.email "email@example.com"
-   ```
+```
 
    因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。你也许会担心，如果有人故意冒充别人怎么办？这个不必担心，首先我们相信大家都是善良无知的群众，其次，真的有冒充的也是有办法可查的。
 
@@ -85,7 +87,7 @@ $ pwd
 /Users/mr_liu/mr_liu-data/git-repositories/git-test
 $ git init
 Initialized empty Git repository in /Users/mr_liu/mr_liu-data/git-repositories/git-test/.git/
-```
+   ```
 
 ​	瞬间Git仓库就建好了，而且返回告诉你空的仓库(empty Git repository)，并且当前仓库下多了.git的隐藏目录，该目录为该仓库的配置目录，没事不要手动修改该目录。
 
