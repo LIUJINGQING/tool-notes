@@ -128,15 +128,14 @@ Initialized empty Git repository in /Users/mr_liu/mr_liu-data/git-repositories/g
   1. 查看当前Git仓库状态
 
      我们修改一下readme.md文件，改成如下内容：
-
-     ```
+     ```shell
   Git is a distributed version control system.
   Git is free software.
      ```
      
      现在，运行`git status`命令查看结果：
      
-     ```
+     ```sh
      $ git status
      On branch master
      Changes not staged for commit:
