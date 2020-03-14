@@ -8,7 +8,7 @@
 
 ## 二、安装Git
 
-###1、在Linux上安装Git
+### 1、在Linux上安装Git
 
 ​	你可以试着输入`git`，看看系统有没有安装Git。
 
@@ -23,7 +23,7 @@ sudo apt-get install git
 
 
 
->  ==注意==:老一点的Debian或Ubuntu Linux，要把命令改为`sudo apt-get install git-core`，因为以前有个软件也叫GIT（GNU Interactive Tools），结果Git就只能叫`git-core`了。由于Git名气实在太大，后来就把GNU Interactive Tools改成`gnuit`，`git-core`正式改为`git`。
+>  **注意**:老一点的Debian或Ubuntu Linux，要把命令改为`sudo apt-get install git-core`，因为以前有个软件也叫GIT（GNU Interactive Tools），结果Git就只能叫`git-core`了。由于Git名气实在太大，后来就把GNU Interactive Tools改成`gnuit`，`git-core`正式改为`git`。
 
 
 
@@ -129,14 +129,14 @@ Initialized empty Git repository in /Users/mr_liu/mr_liu-data/git-repositories/g
 
      我们修改一下readme.md文件，改成如下内容：
 
-     ```shell
+     ```
   Git is a distributed version control system.
   Git is free software.
      ```
      
      现在，运行`git status`命令查看结果：
      
-     ```sh
+     ```
      $ git status
      On branch master
      Changes not staged for commit:
