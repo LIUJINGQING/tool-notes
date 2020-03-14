@@ -87,7 +87,7 @@ $ pwd
 /Users/mr_liu/mr_liu-data/git-repositories/git-test
 $ git init
 Initialized empty Git repository in /Users/mr_liu/mr_liu-data/git-repositories/git-test/.git/
-   ```
+```
 
 ​	瞬间Git仓库就建好了，而且返回告诉你空的仓库(empty Git repository)，并且当前仓库下多了.git的隐藏目录，该目录为该仓库的配置目录，没事不要手动修改该目录。
 
@@ -127,28 +127,29 @@ Initialized empty Git repository in /Users/mr_liu/mr_liu-data/git-repositories/g
 
   1. 查看当前Git仓库状态
 
-     我们修改一下readme.md文件，改成如下内容：
-     ```shell
+  我们修改一下readme.md文件，改成如下内容：
+
+  ```shell
   Git is a distributed version control system.
   Git is free software.
-     ```
-     
-     现在，运行`git status`命令查看结果：
-     
-     ```sh
-     $ git status
-     On branch master
-     Changes not staged for commit:
-       (use "git add <file>..." to update what will be committed)
-       (use "git restore <file>..." to discard changes in working directory)
-     	modified:   readme.md
-     
-     no changes added to commit (use "git add" and/or "git commit -a")
-     ```
-     
-     `git status`命令可以让我们时刻掌握Git仓库当前状态，上面的命令输出告诉我们，`readme.md`被修改过了，但还没有准备提交修改。
-     
-     
+  ```
+
+  现在，运行`git status`命令查看结果：
+
+  ```sh
+  $ git status
+  On branch master
+  Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+  	modified:   readme.md
+  
+  no changes added to commit (use "git add" and/or "git commit -a")
+  ```
+
+  `git status`命令可以让我们时刻掌握Git仓库当前状态，上面的命令输出告诉我们，`readme.md`被修改过了，但还没有准备提交修改。
+
+  
 
 - 
 
